@@ -44,7 +44,7 @@ for file in "$directory"/*; do
 
 	echo "Done snakemake for another set"
 	echo "cleaning intermediate files"
-	./clean.sh $tsetName
+	./scripts/clean.sh $tsetName
 
 	echo "DONE 1 more"
 
