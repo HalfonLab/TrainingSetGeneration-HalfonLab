@@ -73,7 +73,7 @@ date=`date +%m%d%Y`
 #mkdir $outdir
 
 #create log file
-logfile="log.liftover.$date"
+logfile="log.liftover.$Dm6BED.$date"
 echo "liftOver log $date" 1>$logfile
 
 echo "Input file: $Dm6BED" 1>>$logfile
